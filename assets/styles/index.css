@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bitcount Prop Double", system-ui;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.flex-container {
+    width: 90%;
+    height: 200px;
+    background-color: rgb(163, 0, 76);
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    border: 8px solid rgb(110, 0, 52);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(189, 43, 99);
+    border: 5px solid rgb(146, 21, 69);
+    margin: 6px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
