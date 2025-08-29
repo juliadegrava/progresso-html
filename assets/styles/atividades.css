@@ -1,6 +1,20 @@
-.flex-container {
-    width: 20%;
-    height: 200px;
-    background-color: rgb(163, 0, 76);
-    margin: 40px auto;
+.quadrado {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.q1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(189, 43, 99);
+    
+}
+.q2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 103, 161);
+
 }
